@@ -86,6 +86,7 @@
   </div>
 </template>
 <script>
+
 export default {
   data() {
     return {
@@ -111,7 +112,6 @@ export default {
       this.editSuccess = true;
     },
   },
-
   mounted() {
     if (localStorage.getItem("authenticated")) {
       this.loggedIn = true;
